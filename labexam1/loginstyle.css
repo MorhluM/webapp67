@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(148, 207, 255);
+    
+}
+
+.form-login {
+    border-radius: 5px;
+    margin-top: 30vh;
+    margin-left: 90vh;
+    margin-right: 70vh;
+    padding: 3rem 0 5rem 2rem;
+    background-color: rgb(204, 230, 252);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+h1 {
+    margin-top: 10vh;
+    margin-left: 90vh;
+}
+
+.inp {
+    width: 300px;
+    height: 30px;
+    margin-bottom:20px ;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.425);
+}
+.btn {
+    border: none;
+    padding: .5rem 1rem;
+}
+.btn-log {
+    background-color:rgb(148, 207, 255) ;
+    margin-left: 100px;
+    border-radius: 5px;
+}
+.btn-reg {
+    background-color:white ;
+    margin-left: 95px;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.425);
+}
+p {
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(78, 78, 78);
+}
+a {
+    text-decoration: none;
+    color: rgb(78, 78, 78);
+}
