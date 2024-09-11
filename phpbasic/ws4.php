@@ -19,8 +19,10 @@
             if (substr($s, $i, 2) == "aa") {
                 $ctr_aa++;
                 $i++;
+            } 
+            else {
+                $i++;
             }
-            $i++;
         }
         return $ctr_aa;
     }
