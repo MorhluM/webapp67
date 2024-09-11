@@ -10,6 +10,8 @@
     <?php
     echo test("bbaaccaag")."\n";
     echo "<br>";
+    echo test("jjkiaaasew")."\n";
+    echo "<br>";
     echo test("JSaaakoiaa")."\n";
 
     function test($s) {
@@ -19,7 +21,7 @@
             if (substr($s, $i, 2) == "aa") {
                 $ctr_aa++;
                 $i++;
-            } 
+            }
             else {
                 $i++;
             }
